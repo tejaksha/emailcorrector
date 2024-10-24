@@ -1,3 +1,3 @@
-module github.com-tejaksha/tejaksha/emailcorrector
+module github.com/tejaksha/emailcorrector
 
 go 1.22.2
