@@ -1,4 +1,4 @@
-# emailcorrector
+# Emailcorrector
 
 A Go package for validating and auto-correcting email addresses.
 
@@ -12,6 +12,7 @@ A Go package for validating and auto-correcting email addresses.
 
 ```bash
 go get github.com/tejaksha/emailcorrector
+```
 
 ## Usage
 
@@ -35,7 +36,8 @@ func main() {
     // Example of suggesting a domain correction
     incorrectDomain := "gmial.com"
     suggested := emailcorrector.SuggestDomainCorrection(incorrectDomain)
-    fmt.Printf("Did you mean: %s?\n", suggested)
+    fmt.Printf("Did you mean: %s?
+", suggested)
 
     // Example of correcting an email
     incorrectEmail := "user@gmial.com"
@@ -46,9 +48,8 @@ func main() {
         fmt.Println("Corrected email:", corrected)
     }
 }
-
+```
 
 ## License
 
 MIT License
-
